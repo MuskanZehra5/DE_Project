@@ -1,0 +1,18 @@
+# Core scientific and data libraries
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+
+# Web app framework
+streamlit
+
+# Forecasting
+prophet
+
+# Database support
+sqlalchemy
+
+# Optional: cmdstanpy is sometimes needed for Prophet (especially on M1/M2 Macs)
+cmdstanpy
