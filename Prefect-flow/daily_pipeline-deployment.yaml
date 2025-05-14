@@ -1,0 +1,43 @@
+###
+### A complete description of a Prefect Deployment for flow 'daily_orchestrator_flow'
+###
+name: car-data-pipeline
+description: null
+version: fd92bc28c3eb3d1d654356ae46ba45a8
+# The work queue that will handle this deployment's runs
+work_queue_name: default
+work_pool_name: default
+tags: []
+parameters: {}
+schedule: null
+schedules: []
+is_schedule_active: null
+infra_overrides: {}
+infrastructure:
+  type: process
+  env: {}
+  labels: {}
+  name: null
+  command: null
+  stream_output: true
+  working_dir: null
+  block_type_slug: process
+  _block_type_slug: process
+
+###
+### DO NOT EDIT BELOW THIS LINE
+###
+flow_name: daily_orchestrator_flow
+manifest_path: null
+storage: null
+path: /mnt/d/LUMS/Spring_2025/DE/DE-final-project
+entrypoint: main_pipeline.py:daily_pipeline
+parameter_openapi_schema:
+  title: Parameters
+  type: object
+  properties: {}
+  required: null
+  definitions: null
+timestamp: '2025-05-13T14:54:41.778015+00:00'
+triggers: []
+enforce_parameter_schema: null
